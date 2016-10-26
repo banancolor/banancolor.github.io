@@ -28,7 +28,7 @@ body {
  }
 
 img.slideimg{
-  overflow: auto;
+  overflow: hidden;
   height:500px;
   width:1000px;
 }
@@ -129,7 +129,7 @@ a.menu:hover {
  }
  .contein
  {
-   width: 900px;
+   width: 1000px;
    height: 300px; /*от высоты зависит положение картинки!!!*/
    display: flex;
    margin: 20px auto 20px 0;
@@ -145,13 +145,13 @@ width: 300px;
 .pics{
   position: relative;
   height: 100%;
-  width: 55.5%;
+  width: 50%;
   background-color: #01b0f3;
 }
 
 .content{
   height: 100%;
-  width: 44.5%;
+  width: 50%;
   background-color: white;
   margin-top: 0;
   overflow-x: hidden;
